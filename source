@@ -1,4 +1,4 @@
--- Currently Supports: Natural Disaster Survival, Jailbreak, Phantom Forces, Prison Life, Deepwoken, Criminality, Parkour
+-- Currently Supports: Natural Disaster Survival, Jailbreak, Phantom Forces, Prison Life, Deepwoken, Criminality, Parkour, Murder Mystery 2
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/forumsLib/main/source.lua"))()
 
 -- Natural Disaster Surival	
@@ -93,10 +93,22 @@ end)
 
 -- Parkour
 elseif game.PlaceId == 445664957 then
-local Forums = Library.new("[CHRISTMAS SALE] Parkour| ScriptLoader")
+local Forums = Library.new("[CHRISTMAS SALE] Parkour | ScriptLoader")
 local preview = Forums:NewSection("Scripts")
 preview:NewButton("Parkour by xgamer626#1683", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xgamerman626/Hub/main/Init.lua"))()
+end)
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+-- Murder Mystery 2
+elseif game.PlaceId == 142823291 then
+local Forums = Library.new("[Murder Mystery 2 | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("Eclipse Hub", function()
+	loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/raw/GjRYYpwt"))()"))()
 end)
 local preview1 = Forums:NewSection("Credits")
 preview1:NewButton("Made by MaxOfficial", function()
