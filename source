@@ -133,6 +133,17 @@ preview1:NewButton("Made by MaxOfficial", function()
 print("MaxOfficial#2096")
 end)
 
+-- Bee Swarm Simulator
+elseif game.PlaceId == 1537690962 then
+local Forums = Library.new("[x2 Event] Bee Swarm Simulator | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("Macro V2", function()
+	loadstring(game:HttpGet("https://www.macrov2-script.xyz/macrov2.lua"))()
+end)
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
 else
 game.Players.LocalPlayer:Kick("Unsupported Game | Script Loader")
 end
