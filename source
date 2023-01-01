@@ -126,7 +126,7 @@ elseif game.PlaceId == 9872472334 then
 local Forums = Library.new("❄Evade | ScriptLoader")
 local preview = Forums:NewSection("Scripts")
 preview:NewButton("Hydra Network", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/Xc2SHqzL"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ez0G/scriptloader/main/source"))()
 end)
 local preview1 = Forums:NewSection("Credits")
 preview1:NewButton("Made by MaxOfficial", function()
