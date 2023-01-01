@@ -1,4 +1,4 @@
--- Currently Supports: Natural Disaster Survival, Jailbreak, Phantom Forces, Prison Life, Deepwoken, Criminality, Parkour, Murder Mystery 2
+-- Currently Supports: Natural Disaster Survival, Jailbreak, Phantom Forces, Prison Life, Deepwoken, Criminality, Parkour, Murder Mystery 2, Evade
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/forumsLib/main/source.lua"))()
 
 -- Natural Disaster Surival	
@@ -115,6 +115,18 @@ local Forums = Library.new("[Murder Mystery 2 | ScriptLoader")
 local preview = Forums:NewSection("Scripts")
 preview:NewButton("Eclipse Hub", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/GjRYYpwt"))()
+end)
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+- Evade
+elseif game.PlaceId == 9872472334 then
+local Forums = Library.new("❄️Evade | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("Hydra Network", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Xc2SHqzL"))()
 end)
 local preview1 = Forums:NewSection("Credits")
 preview1:NewButton("Made by MaxOfficial", function()
