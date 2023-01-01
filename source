@@ -1,0 +1,108 @@
+-- Currently Supports: Natural Disaster Survival, Jailbreak, Phantom Forces, Prison Life, Deepwoken, Criminality, Parkour
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/forumsLib/main/source.lua"))()
+
+-- Natural Disaster Surival	
+if game.PlaceId == 189707 then
+local Forums = Library.new("Natural Disaster Survival | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("rblxscripts.net", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/73GG/Game-Scripts/main/Natural%20Disaster%20Survival.lua"))()
+end)
+preview:NewButton("InfiniteYield", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+-- Jailbreak
+elseif game.PlaceId == 606849621 then
+local Forums = Library.new("Jailbreak | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("Vynixius", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+end)
+preview:NewButton("icetray v3", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/icetray3/main/latest.lua"))()
+end)
+
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+-- Phantom Forces
+elseif game.PlaceId == 292439477 then
+local Forums = Library.new("Phantom Forces | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("VG Hub", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+-- Prison Life
+elseif game.PlaceId == 155615604 then
+local Forums = Library.new("Prison Life (Cars fixed!) | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("PRISON WARE V1.3", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+end)
+preview:NewButton("Prison Hub", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/3agNpBcL"))();
+end)
+preview:NewButton("Vynixius", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+end)
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+-- Deepwoken
+elseif game.PlaceId == 6032399813 then
+local Forums = Library.new("Deepwoken: Verse 2 | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("Sunshine New Version V1", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/w8qQ07Pm", true))()
+end)
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+-- Criminality
+elseif game.PlaceId == 8343259840 then
+local Forums = Library.new("[2x + SALE] Criminality | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("Moonlight Hub", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GlobeReverse/Moonlight/main/Main.lua"))()
+end)
+preview:NewButton("Femware", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
+end)
+
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+-- Parkour
+elseif game.PlaceId == 445664957 then
+local Forums = Library.new("[CHRISTMAS SALE] Parkour| ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("Parkour by xgamer626#1683", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xgamerman626/Hub/main/Init.lua"))()
+end)
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
+else
+game.Players.LocalPlayer:Kick("Unsupported Game | Script Loader")
+end
