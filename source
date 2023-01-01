@@ -35,7 +35,7 @@ end)
 
 -- Phantom Forces
 elseif game.PlaceId == 292439477 then
-local Forums = Library.new("Phantom Forces | ScriptLoader")
+local Forums = Library.new("Phantom Forces [Winter Holidays!] | ScriptLoader")
 local preview = Forums:NewSection("Scripts")
 preview:NewButton("VG Hub", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
