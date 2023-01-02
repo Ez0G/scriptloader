@@ -150,6 +150,15 @@ end)
 elseif game.PlaceId == 6284583030 then
 local Forums = Library.new("[🎉NEW YEAR] Pet Simulator X! | ScriptLoader")
 local preview = Forums:NewSection("Scripts")
+preview:NewButton("Huge Games", function()
+	getgenv (). AuthKey = "HUGE_TrTT9gLwpgTXYTCC"
+	getgenv (). LoadSettings ={
+	UseSeperateSaves= false,
+	DisableStartupPrompt= false,
+	DisableGamepassCheck= false,
+	}
+	loadstring ( game : HttpGet ( "https://HugeGames.io/script" ))()
+end)
 preview:NewButton("Milk Up", function()
 	loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
 end)
@@ -162,6 +171,7 @@ end)
 preview:NewButton("Phantom Hub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
 end)
+
 local preview1 = Forums:NewSection("Credits")
 preview1:NewButton("Made by MaxOfficial", function()
 print("MaxOfficial#2096")
