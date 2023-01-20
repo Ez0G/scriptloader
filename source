@@ -168,6 +168,28 @@ preview1:NewButton("Made by MaxOfficial", function()
 print("MaxOfficial#2096")
 end)
 
+-- Pet Simulator X | Hardcore
+elseif game.PlaceId == 10321372166 then
+local Forums = Library.new("✏️ Pet Simulator X! 🐾 [Hardcore] | ScriptLoader")
+local preview = Forums:NewSection("Scripts")
+preview:NewButton("Milk Up", function()
+	loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+end)
+preview:NewButton("ProjectWD", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+end)
+preview:NewButton("Cip.ex", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/cipex-rbx/cipex/main/loader.lua"))()
+end)
+preview:NewButton("Jmes hub", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
+
+local preview1 = Forums:NewSection("Credits")
+preview1:NewButton("Made by MaxOfficial", function()
+print("MaxOfficial#2096")
+end)
+
 else
 game.Players.LocalPlayer:Kick("Unsupported Game | Script Loader")
 end
